@@ -1,4 +1,28 @@
+A {
+    text-decoration: none;
+   } 
+   A:hover { 
+    text-decoration: underline;
+    color: #00008B;
+   } 
+ body {
+    background-image: url(images/c4.jpg);
+    background-attachment: fixed;
+   }
+td {
+    vertical-align: top;
+   }
 
-
-
-
+details {
+  position: relative;
+  background: #4e6473;
+  padding: 2px 10px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+details:-webkit-details-marker {
+   position: absolute;
+   right: 10px;
+   top: 30%;
+}
