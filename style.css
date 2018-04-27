@@ -1,0 +1,37 @@
+A 	{
+    text-decoration: none;
+	} 
+A:hover { 
+    text-decoration: underline;
+    color: #00008B;
+	} 
+body {
+    background-image: url(images/c4.gif);
+    background-attachment: fixed;
+	background-size: cover;
+	}
+td	{
+	vertical-align: top;
+	}
+
+details {
+	position: relative;
+	background: #4e6473;
+	padding: 2px 10px;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	}
+details:-webkit-details-marker {
+	position: absolute;
+	right: 10px;
+	top: 30%;
+	}
+th {
+	background-size: cover;
+	}
+	.letters {
+    //font: 2em Arial, sans-serif;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+   }
